@@ -1,0 +1,17 @@
+/** this class will hide all the body be default **/
+#accordion .body{
+    display: none;
+    padding: 10px;
+}
+
+/** this class will show the body if it has a parent with active **/
+#accordion .active .body {
+    display: block;
+}
+
+#accordion .panel{
+    border: solid 1px #D6D6D6;
+    margin: 5px;
+    padding: 5px;
+    border: 2px;
+}
